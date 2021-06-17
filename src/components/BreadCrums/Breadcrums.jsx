@@ -6,7 +6,7 @@ import './style.css'
 function Breadcrums() {
 
     const routes = [
-        { path: '/', breadcrumb: 'All Cards' },
+        { path: '/', breadcrumb: 'All Cards ' },
         { path: "/:name Details", breadcrumb:"" },
       ];
 

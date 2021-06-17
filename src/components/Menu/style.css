@@ -49,7 +49,7 @@
   padding: 5px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 832px) {
   .hidden {
     display: none;
     position: fixed;
@@ -58,11 +58,21 @@
     display: flex;
   }
 }
-@media (max-width: 800px) {
-  .menu {
-    width: 100%;
+
+@media (max-width: 414px) {
+  .btn {
+    font-size: 0.9em;
   }
-  .menuGroupBtn {
-    display: flex;
+
+  .btnCards {
+    width: 110px;
+  }
+
+  .btnDeck {
+    width: 90px;
+  }
+  .name {
+    font-size: 0.9em;
+    padding: 4px;
   }
 }

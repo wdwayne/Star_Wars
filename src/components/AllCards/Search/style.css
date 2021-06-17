@@ -18,6 +18,7 @@
 #searchBtn {
   position: relative;
   right: 32px;
+  top: 2px;
   border: none;
   background-color: #fff;
   cursor: pointer;
@@ -29,12 +30,16 @@
     width: 100%;
   }
   #searchBtn {
-    left: 93%;
+    left: 92%;
     top: -35px;
   }
 }
 @media (max-width: 414px) {
   #searchBar {
     width: 100%;
+  }
+  #searchBtn {
+    left: 90%;
+    top: -35px;
   }
 }

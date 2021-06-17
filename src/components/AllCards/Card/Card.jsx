@@ -12,7 +12,9 @@ function Card({ person, setCurrentPerson, setQuery }) {
   
   const history = useHistory();
 
-  
+  if(!person) {
+    return <h1>Loading...</h1>
+  }  
 
   return (
     <div
