@@ -13,6 +13,7 @@ function AllCards({ data, setCurrentPerson, setQuery }) {
             person={person}
             key={person.name}
             setCurrentPerson={setCurrentPerson}
+            setQuery={setQuery}
           />
         ))}
       </div>

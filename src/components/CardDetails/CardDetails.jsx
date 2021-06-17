@@ -11,8 +11,6 @@ import { useHistory } from "react-router-dom";
 function CardDetails({ currentPerson }) {
   const history = useHistory();
 
-  console.log(currentPerson)
-
   if (!currentPerson) {
     history.push("/");
     return <p>loading...</p>;

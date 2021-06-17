@@ -28,7 +28,7 @@ function App() {
               <AllCards data={data} setCurrentPerson={setCurrentPerson} setQuery={setQuery} />
             )}
           </Route>
-          <Route exact path="/cardDetails/:name">
+          <Route exact path="/:name Details">
             <CardDetails currentPerson={currentPerson} />
           </Route>
         </Switch>
@@ -37,4 +37,6 @@ function App() {
   );
 }
 
+
+// "/cardDetails/:name" "/:name Details 
 export default App;

@@ -1,0 +1,20 @@
+.breadcrumb {
+  display: inline-block;
+  background-color: transparent;
+  padding: 0;
+  margin: 40px 0 20px 0;
+}
+
+.breadcrumb:nth-of-type(2),
+.breadcrumb:nth-of-type(3) {
+  color: #969696;
+}
+
+.breadcrumb:nth-of-type(2)::before {
+  content: "/";
+  margin: 0 4px;
+}
+.breadcrumb:nth-of-type(3)::before {
+  content: " ";
+  margin: 0 1px;
+}

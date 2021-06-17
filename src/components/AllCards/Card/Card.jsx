@@ -8,7 +8,7 @@ import { ReactComponent as Starship } from "../../../Assets/Starship.svg";
 import { ReactComponent as Vehicle } from "../../../Assets/Vehicle.svg";
 import { useHistory } from "react-router-dom";
 
-function Card({ person, setCurrentPerson }) {
+function Card({ person, setCurrentPerson, setQuery }) {
   
   const history = useHistory();
 
@@ -19,7 +19,8 @@ function Card({ person, setCurrentPerson }) {
       className="col"
       onClick={() => {
         setCurrentPerson(person);
-        history.push(`/cardDetails/${person.name}`);
+        history.push(`/${person.name} Details`);
+        setQuery('');
       }}
     >
       <div className="nameContainer">
