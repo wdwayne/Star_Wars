@@ -1,0 +1,68 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #b8b8b8;
+  padding-bottom: 10px;
+  margin-top: 5%;
+}
+
+/* menu buttons  */
+
+.btnCards {
+  width: 112px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.btnDeck {
+  background-color: #d6d6d6;
+  width: 92px;
+  height: 32px;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* h1 element */
+.headH1 {
+  color: #3b3b3b;
+  font-size: 20px;
+  line-height: 20px;
+  font-style: normal;
+}
+.headText {
+  color: #999;
+}
+
+/* name */
+
+.name {
+  font-size: 1em;
+  border: 2px solid #b8b8b8;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+@media (max-width: 800px) {
+  .hidden {
+    display: none;
+    position: fixed;
+  }
+  .menuGroupBtn {
+    display: flex;
+  }
+}
+@media (max-width: 800px) {
+  .menu {
+    width: 100%;
+  }
+  .menuGroupBtn {
+    display: flex;
+  }
+}

@@ -1,0 +1,21 @@
+.colDetails {
+  width: 334px;
+  height: 480px;
+}
+.colDetails .cardBody {
+  min-height: 250px;
+}
+
+@media (max-width: 834px) {
+  .colDetails {
+    width: 100%;
+  }
+  .cardBody {
+    padding: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .cardBody {
+    padding: 20px;
+  }
+}

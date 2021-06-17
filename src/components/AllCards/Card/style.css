@@ -1,0 +1,59 @@
+.col {
+  margin-top: 15px;
+  width: 190px;
+  min-height: 282px;
+  cursor: pointer;
+}
+.nameContainer {
+  background-color: #969696;
+  height: 98px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+}
+.nameContainer h3 {
+  margin: 0;
+}
+.cardBody {
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 0 0 8px 8px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.birthInfo {
+  border-bottom: 2px solid #d4d4d4;
+  height: 32px;
+}
+.cardItem {
+  background-color: #ededed;
+  height: 32px;
+  margin-top: 8px;
+  padding: 6px 4px;
+  border-radius: 8px;
+}
+.title {
+  color: #757575;
+}
+
+@media (max-width: 800px) {
+  .col {
+    width: 290px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 400px) {
+  .col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .cardItem {
+    height: 40px;
+  }
+}
