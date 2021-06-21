@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get(`https://swapi.dev/api/people/?searchc=${query}`)
+      .get(`https://swapi.dev/api/people/?search=${query}`)
       .then((res) => setData(res.data.results))
       .catch((err) => setError(err.message));
   }, [query]);
@@ -35,7 +35,5 @@ function App() {
     </div>
   );
 }
-
-
-// "/cardDetails/:name" "/:name Details 
+ 
 export default App;
