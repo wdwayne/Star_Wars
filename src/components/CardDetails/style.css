@@ -8,12 +8,13 @@
 
 @media (max-width: 834px) {
   .colDetails {
-    width: 100%;
+    width: 80%;
   }
   .cardBody {
     padding: 20px;
   }
 }
+
 @media (max-width: 414px) {
   .cardBody {
     padding: 20px;

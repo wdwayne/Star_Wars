@@ -14,7 +14,7 @@ function Search({ setQuery }) {
     return (
         <form>
             <input type="text" placeholder='Search' id="searchBar" onChange={(q) => handleChange(q.target.value)} value={charName} required />
-             <button id="searchBtn"><SearchBtn /></button>
+             <button id="searchBtn" disabled={true}><SearchBtn /></button>
         </form>
     )
 }

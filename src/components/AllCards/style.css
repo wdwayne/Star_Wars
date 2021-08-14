@@ -12,6 +12,14 @@ a {
   color: #3b3b3b;
 }
 
+@media (max-width: 1025px) {
+  .row {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 15px;
+  }
+}
+
 @media (max-width: 834px) {
   .row {
     display: grid;
@@ -20,8 +28,10 @@ a {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 540px) {
   .row {
-    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 }
