@@ -1,3 +1,7 @@
+![image](https://user-images.githubusercontent.com/56362836/129460973-0bea4ab4-0032-403f-a6e1-5006133a81a9.png)
+
+This application is used to display caracter details from the Starwars universe in a card farmat. The details of the characters that is being displayed is recieved from https://swapi.dev/ using Axios to make API calls.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
